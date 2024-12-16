@@ -65,10 +65,7 @@
 
 
 ## Results: 🙌
-Project Demo Link :
-https://github.com/user-attachments/assets/7b42ce49-023c-4615-99ac-48062d5f1f2c
 
-Webapplication Screenshots: 
 <img width="960" alt="Screenshot (3372)" src="https://github.com/user-attachments/assets/7d3b5dd0-e385-444a-be29-cd3794edf83a">
 <img width="960" alt="Screenshot (3371)" src="https://github.com/user-attachments/assets/50539574-e6f5-4883-b18b-3bc7552cced3">
   
