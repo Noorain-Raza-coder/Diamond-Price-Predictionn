@@ -1,55 +1,27 @@
 # Diamond Price Prediction 👨🏻‍🔧
 
+## Problem Statement
+- Pricing diamonds accurately is a complex task that involves assessing multiple attributes, which requires domain expertise and time-intensive manual evaluation. Inconsistent pricing can lead to dissatisfaction among buyers and sellers, impacting the credibility of the diamond trade. There is a need for an automated, reliable, and scalable system that can predict diamond prices accurately based on their features, reducing dependency on manual processes and minimizing errors.
+
+- This project addresses the challenge by building a machine learning-based web application that predicts diamond prices efficiently, reduces manual intervention, and ensures accurate and consistent valuations, benefitting both industry professionals and consumers.
+
 ## Project Description: 👨‍🏫
-- The "Grocery Store Management System" is a web-based application designed to automate and manage various aspects of a grocery store.
-- This system allows store administrators to manage products and inventory efficiently, while customers can browse products, add items to their cart, and place orders online.
-- The system provides a user-friendly interface for customers and a robust backend to ensure smooth operations.
-
-
-## Backend Modules:
-- **mysqlConn.py:** makes connection between Python and MySQL.
-- **product.py:** Contains functions such as add product , remove product and retrieve the list of products.
-- **cart.py:** Contains functions such as add item into cart , remove item from the cart and view cart items.
-- **order.py:** Contains functions such as create order details and view order details.
-- **app.py:** This is the main Python file that triggers the entire Web-Application. This file contains flask app , routing url functions and  APIs to communicate between frontend and backend.
-
-
-## Frontend templates folder:
-- **login.html:** User login page.
-- **register.html:** User registration page.
-- **home.html:** Home page of grocery store.
-- **products.html:** Products page where user sees available products.
-- **cart.html:** Cart page.
-- **order.html:** Order page.
+- The Diamond Price Prediction Web Application is an end-to-end solution designed to estimate diamond prices based on key features such as carat, cut, color, clarity, and other attributes.
+- Built using a robust stack of Python, Flask, and machine learning, this project automates the process of price prediction with high accuracy and efficiency.
+- The application incorporates data preprocessing pipelines, feature engineering, and a machine learning model deployed via an interactive web interface.
+- With seamless integration of APIs, logging, and exception handling, the application is designed for reliability, scalability, and real-world usability.
 
 
 ## Features:
-**1. User Authentication & Session Management:**
-- Implemented secure login and registration systems using Flask sessions, ensuring data integrity and user session management.
-- Stored user credentials and information securely in the user table within the MySQL database.
-
-**2. Product Management with Full CRUD Functionality:**
-- Enabled administrators to perform CRUD operations (Create, Read, Update, Delete) on product data, allowing for easy management of the store’s inventory.
-- Product details, including names, prices, and descriptions, are stored and managed in the product table.
-
-**3. Shopping Cart with Real-Time Updates:**
-- Developed a dynamic shopping cart system where users can add, update, or remove products, with changes reflected in real-time.
-- The cart table in the database tracks all items added by each user, ensuring accurate order processing.
-
-**4. Order Processing and Management:**
-- Facilitated smooth order placement by integrating a comprehensive order management system, allowing users to review their cart items and finalize purchases.
-- Implemented features to store and retrieve order details in the order table, with automatic total price calculation.
-
-**5. Responsive and User-Centric Design:**
-- Designed the frontend using Bootstrap to ensure the application is fully responsive and optimized for various devices, providing a consistent user experience across desktops, tablets, and smartphones.
-- Created an intuitive user interface that enhances the shopping experience, making navigation and interaction effortless.
-
-**6. Efficient Database Interaction with MySQL:**
-- Connected the application to a MySQL database using a custom Python module (mysqlConn.py), enabling efficient data handling.
-- Wrote optimized SQL queries to perform operations on the user, product, cart, and order tables, ensuring fast and reliable data processing.
-
-**7. Seamless API Integration for Frontend-Backend Communication:**
-- Built and integrated custom APIs to handle data requests and responses between the frontend and backend, enabling real-time data interaction and smooth user experiences.
+1) **Accurate Price Prediction:** Predicts diamond prices with a high R² score of 92% using a Lasso Regression model.
+**Interactive Web Interface:** User-friendly frontend built with HTML and Flask, providing seamless interaction for price prediction.
+2) **Data Pipelines:** Automated pipelines for data cleaning, preprocessing, and feature engineering, ensuring reliable and efficient data handling.
+3) **API Integration:** Backend APIs implemented for fast and efficient model predictions, reducing response time.
+4) **Object-Oriented Programming:** Modular and reusable codebase designed with OOP principles for enhanced scalability and maintainability.
+5) **Robust Logging and Exception Handling:** Integrated systems to monitor application performance and simplify debugging processes.
+6) **Cross-Validation for Model Evaluation:** Ensures robust and generalized model performance with thorough validation techniques.
+7) **End-to-End Deployment:** Fully operational web application from data processing to prediction, accessible to users in real-time.
+8) **Technology Stack:** Built using Python, Flask, HTML, and Jupyter Notebook, with version control handled via GitHub.
 
 
 
@@ -97,9 +69,9 @@ Project Demo Link :
 https://github.com/user-attachments/assets/7b42ce49-023c-4615-99ac-48062d5f1f2c
 
 Webapplication Screenshots: 
-  <img width="960" alt="Screenshot (3370)" src="https://github.com/user-attachments/assets/986885d6-61bb-46d3-bdad-06b66f35d4d4">
-  <img width="960" alt="Screenshot (3371)" src="https://github.com/user-attachments/assets/50539574-e6f5-4883-b18b-3bc7552cced3">
-  <img width="960" alt="Screenshot (3372)" src="https://github.com/user-attachments/assets/7d3b5dd0-e385-444a-be29-cd3794edf83a">
+<img width="960" alt="Screenshot (3372)" src="https://github.com/user-attachments/assets/7d3b5dd0-e385-444a-be29-cd3794edf83a">
+<img width="960" alt="Screenshot (3371)" src="https://github.com/user-attachments/assets/50539574-e6f5-4883-b18b-3bc7552cced3">
+  
 
 
 
